@@ -24,3 +24,7 @@ app.get('/', (req, res) => {
     </html>
   `);
 } );
+
+http.listen(port, () => {
+  console.log(`Server is running on port ${port}`);
+});
